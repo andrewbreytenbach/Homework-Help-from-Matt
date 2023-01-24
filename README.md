@@ -1,40 +1,36 @@
-# 📖 Implement Box Styling on Product Cards
+# 🐛 Link and Button Placement is Incorrect
 
-Work with a partner to implement the following user stories:
+Work with a partner to resolve the following issues:
 
-* As the store owner, I want to display the product cards with rounded corners.
+* As a user, I want the navigation links to be on the right side.
 
-* As the store owner, I want to give the product cards a 3D look by dropping a shadow and rotating it slightly.
+* As a user, I want the slideshow buttons to be sized as smaller icons and centered alongside the image.
 
-## Acceptance Criteria
+## Expected Behavior
 
-* It's done when the product cards have rounded corners, drop shadows, and a rotated appearance.
+The navigation links are aligned to the right. The slideshow buttons are smaller than the image and are centered alongside the image.
 
-* The solution does not have to look exactly like the image provided. Play around with the properties and have fun!
+## Actual Behavior
 
-## 📝 Notes
-
-Refer to the following documentation:
-
-[MDN Web Docs on creating fancy boxes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/create_fancy_boxes)
+The navigation links are aligned to the left. The slideshow buttons extend to the same height as the image.
 
 ## Assets
 
 The following image demonstrates the web application's appearance:
 
-![The product cards have rounded corners with a shadow and are rotated to the right.](./Images/01-css-box-styling.png)
+![The navigation links are aligned to the right, and the slideshow buttons are center aligned.](./Images/01-product-page.png)
 
 ---
 
 ## 💡 Hints
 
-* Look into CSS border and background properties, like `border-radius`, `box-shadow`, and `transform`.
+* What are some of the other possible values for flexbox's alignment and justification properties?
 
 ## 🏆 Bonus
 
 If you have completed the activity and want to further your knowledge, work through the following challenge with your partner:
 
-* What are vendor prefixes, and how are they useful?
+* What e-commerce websites can you find that are using flexbox properties to help organize their components and layouts?
 
 Use [Google](https://www.google.com) or another search engine to research this.
 
